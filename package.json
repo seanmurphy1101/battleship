@@ -1,0 +1,28 @@
+{
+  "name": "battleship",
+  "version": "1.0.0",
+  "description": "single player battleship game",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "build": "babel ./src/app/index.js -d dist",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanmurphy1101/battleship.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanmurphy1101/battleship/issues"
+  },
+  "homepage": "https://github.com/seanmurphy1101/battleship#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
+    "webpack": "^5.44.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
